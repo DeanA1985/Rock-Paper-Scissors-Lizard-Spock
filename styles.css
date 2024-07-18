@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 4.5 rem;
+    color:black;
+}
+.choices{
+    margin-bottom: 20px ;
+}
+.choices button{
+    font-size: 7.5 rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: hsl(200, 100%, 50%);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.choices button:hover{
+    background-color: hsl(200, 100%, 70%);
+
+}

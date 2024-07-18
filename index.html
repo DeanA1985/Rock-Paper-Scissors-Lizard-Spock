@@ -6,16 +6,24 @@
     <title>Rock-Paper-Scissors-Lizard-Spock</title>
 </head>
 <body>
-<!-- Game Area-->
-<div class ="gamearea">
+  <!-- Game Area-->
     <h1>Rock - Paper - Scissors - Lizard - Spock</h1>
-    <button onclick="playGame('rock')">&#128074</button>
-    <button onclick="playGame('paper')">&#9995</button>
-    <button onclick="playGame('scissors')">&#9986</button>
-    <button onclick="playGame('lizard')">&#129295</button>
-    <button onclick="playGame('spock')">&#128406</button>
 
-</div>
+    <div class = "choices">
+        <button onclick="playGame('rock')">&#128074</button>
+        <button onclick="playGame('paper')">&#9995</button>
+        <button onclick="playGame('scissors')">&#9986</button>
+        <button onclick="playGame('lizard')">&#129295</button>
+        <button onclick="playGame('spock')">&#128406</button>
+
+    </div>
+    
+    <div id ="playerDisplay">Player: </div>
+    <div id ="computerDisplay">Computer: </div>
+    <div id ="resultDisplay">Its a Tie!</div>
+
+    
+
     
     
 </body>
